@@ -53,7 +53,7 @@ app.post('/pusher/auth', (req, res) => {
 })
 
 // Set port to be used by Node.js
-app.set('port', (5000))
+app.set('port', (4000))
 
 app.listen(app.get('port'), () => {
   console.log('Calipsa game API is running on port', app.get('port'))

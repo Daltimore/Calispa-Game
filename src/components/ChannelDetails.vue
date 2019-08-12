@@ -1,11 +1,6 @@
-<template>
-  <main id="channel-details">
-    
-  </main>
-</template>
-
 <script>
-import pusher from "pusher-js"
+import Pusher from "pusher-js"
+
 const pusher = new Pusher('841235', {
   cluster: 'eu',
   encrypted: true,
@@ -32,7 +27,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>

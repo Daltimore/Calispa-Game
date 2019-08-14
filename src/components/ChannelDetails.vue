@@ -4,7 +4,7 @@ import Pusher from "pusher-js"
 const pusher = new Pusher('841235', {
   cluster: 'eu',
   encrypted: true,
-  authEndpoint: 'http://localhost:5000/pusher/auth'
+  authEndpoint: 'http://localhost:4000/pusher/auth'
 })
 export default {
   getPresenceID () {
